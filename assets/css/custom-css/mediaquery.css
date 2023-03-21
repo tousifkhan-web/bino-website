@@ -1,0 +1,107 @@
+/* // Large devices (desktops, less than 1200px) */
+@media screen and (max-width: 1199.98px) {
+}
+
+@media screen and (min-width: 991.98px) {
+  header .mobile-menu-btn {
+    display: none;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media screen and (max-width: 991.98px) {
+  header .logo {
+    width: 100px;
+  }
+
+  header .nav {
+    display: none;
+  }
+  .service-left {
+    padding: 30px;
+  }
+
+  .service-txt-area {
+    margin-right: 0px;
+  }
+  .service-right > img {
+    width: 100%;
+    height: auto;
+  }
+  .case-study-left {
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .contact-card-left > div,
+  .contact-card-right > div {
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 767.98px) {
+  .bnr-txt-area > p:nth-child(2) {
+    font-size: 50px;
+  }
+  .service-txt-area > p {
+    margin: 0px 92px 71px 0px;
+    padding: 0px 10px;
+  }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575.98px) {
+  header {
+    padding: 20px;
+  }
+  header .logo {
+    width: 70px;
+  }
+  .bnr {
+    clip-path: polygon(0% 0%, 0% 90%, 50% 96%, 100% 90%, 100% 0%);
+  }
+
+  .bnr-txt-area > p:nth-child(2) {
+    font-size: 30px;
+  }
+  .bnr-txt-area > p:nth-child(2) {
+    padding: 20px;
+  }
+  .bnr-txt-area > div:nth-child(5) > a {
+    padding: 15px 0;
+    font-size: 9px;
+    width: 120px;
+  }
+  .service-icon {
+    display: none;
+  }
+
+  .service-list > div:first-child {
+    margin-right: 0px;
+  }
+
+  .service-txt-area > p {
+    margin: 0px 0px 71px 0px;
+    padding: 0px 10px;
+  }
+
+  .scrolltotop {
+    right: 20px;
+    bottom: 20px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact-card-left > div,
+  .contact-card-right > div {
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

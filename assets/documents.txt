@@ -1,0 +1,12 @@
+Google Fonts----------
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600;1,700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+CSS rules to specify families
+
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+Font Awesome-----------
+
+<script src="https://kit.fontawesome.com/382f4e0a7e.js" crossorigin="anonymous"></script>
